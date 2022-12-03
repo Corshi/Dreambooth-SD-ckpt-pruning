@@ -3,7 +3,7 @@
 This script was adapted from:
 https://github.com/harubaru/waifu-diffusion/blob/e4736c11f580197a8c55c69ac3be14e7b0de4588/scripts/prune.py
 
-Usage: prune-ckpt.py [-h] [--ckpt CKPT] [--half] [--emaonly]
+*Usage*: prune-ckpt.py [-h] [--ckpt CKPT] [--half] [--emaonly]
 `--ckpt` will crate a copy of the ckpt with only erased optimizers
 Optional:
 `--half` will crate flout16 version
