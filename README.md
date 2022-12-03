@@ -12,7 +12,7 @@ https://github.com/harubaru/waifu-diffusion/blob/e4736c11f580197a8c55c69ac3be14e
 	
 *Optional*:
 
-`--half` will crate flout16 version
+`--half` will crate float16 version
 
 `--emaonly` will erase MA data. Leavin only EMA.
 
