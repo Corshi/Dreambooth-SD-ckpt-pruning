@@ -39,7 +39,7 @@ def prune_it(p):
         for k in sd:
             if k in ema_keys:
                 new_sd[k] = sd[ema_keys[k]] if not args.half else sd[ema_keys[k]].half()
-            elif not k.startswith("model_ema") or k in ["model_ema.num_updates", "model_ema.decay"]:
+            elif not k.startswith("model_ema.") or k in ["model_ema.num_updates", "model_ema.decay"]:
                 new_sd[k] = sd[k] if not args.half else sd[k].half()
 
         assert len(new_sd) == len(sd) - len(ema_keys)
