@@ -2,7 +2,7 @@
 #This script will crated `archive` file in the directory of this script. You will ned to rename it manualy to .ckpt file.
 #This is to avoid the error of PyTorch that incorectly names the directories inside the .ckpt file.
 #Also with aditional commands you can now set what kind of data you want to prune next to optimizers.
-#--half will crate flout16 version
+#--half will crate float16 version
 #--emaonly will erase MA data. Leavin only EMA.
 import os
 import torch
